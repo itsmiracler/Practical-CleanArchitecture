@@ -749,8 +749,6 @@
 
 - Open Blazor Home Page at: https://localhost:44331
 
-  ![alt text](/docs/imgs/blazor-home-page.png)
-
 ## How to Build and Run Single Page Applications:
 - Angular:
   + Navigate to folder: [UIs/angular/](/src/UIs/angular/)
@@ -771,9 +769,7 @@
       CurrentUrl: "http://localhost:4200/"
     };
     ```
-  + Go to http://localhost:4200/
-
-    ![alt text](/docs/imgs/angular-home-page.png)
+  + Go to http://localhost:4200/ 
   
 - React:
   + Navigate to folder: [UIs/reactjs/](/src/UIs/reactjs/)
@@ -796,8 +792,7 @@
     export default environment;
     ```
   + Go to http://localhost:3000/
-  
-    ![alt text](/docs/imgs/react-home-page.png)
+
   
 - Vue:
   + Navigate to folder: [UIs/vuejs/](/src/UIs/vuejs/)
@@ -819,9 +814,8 @@
     };
     export default environment;
     ```
-+ Go to http://localhost:8080/
-  
-    ![alt text](/docs/imgs/vue-home-page.png)
++ Go to http://localhost:8080/ 
+
 
 - Before Login, go to Identity Server https://localhost:44367/Client to make sure application clients have been registered:
 
@@ -857,8 +851,6 @@
   + Register new account at http://host.docker.internal:9000/Account/Register
   
 - Open Blazor Home Page at: http://host.docker.internal:9008
-
-  ![alt text](/docs/imgs/blazor-home-page.png)
 
 ## How to Run Integration & End to End Tests:
 - Update [ClassifiedAds.IntegrationTests/appsettings.json](/src/Monolith/ClassifiedAds.IntegrationTests/appsettings.json)
@@ -899,14 +891,5 @@
   }
   ```
   
-  ![alt text](/docs/imgs/run_e2e_tests.gif)
-  
-## Application URLs:
+  ![alt text](/docs/imgs/run_e2e_tests.gif) 
 
-https://github.com/phongnguyend/Practical.CleanArchitecture/wiki/Application-URLs
-
-## Roadmap:
-
-https://github.com/phongnguyend/Practical.CleanArchitecture/wiki/Roadmap
-
-##
